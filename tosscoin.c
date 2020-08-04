@@ -7,7 +7,14 @@
 int main()
 {
 	int i,H=0,T=0;
+	char name[MAX];	
 	srand((unsigned int)time(NULL));
+
+	printf("Who are you?\n");
+
+	scanf("%s",name);
+
+	printf("Hello, %s!\n",name);
 		
 	printf("Tossing a coin....\n");
 
