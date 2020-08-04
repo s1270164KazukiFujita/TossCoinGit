@@ -33,7 +33,7 @@ int main()
 			T++;
 		}
 	}
-
+	
 	printf("Heads: %d, Tails: %d\n",H,T);
 
 	if(H>T)
